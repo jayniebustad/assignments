@@ -4,10 +4,6 @@ body {
     background-image: url("../images/embossed-diamond.png");
 }
 
-.container {
-    background-color: white;
-}
-
 header {
     background-color: #9abcf8;
     color: white;
