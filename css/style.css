@@ -1,0 +1,34 @@
+body {
+    margin:0 10%;
+    font-family: sans-serif;
+    background-image: url("../images/embossed-diamond.png");
+}
+
+.container {
+    background-color: white;
+}
+
+header {
+    background-color: #9abcf8;
+    color: white;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    color: #57b1dc;
+    font-size: 1.5rem; 
+    text-transform: uppercase; 
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 5px solid #9abcf8
+}   
