@@ -5,9 +5,23 @@
     --neutral_grey: #747e83;
     --neutral_light: #fff;
 }
+.blue {
+    background-color: var(--primary_color);
+}
+
+.yellow {
+    background-color: var(--highlight_color);
+}
+.center {
+    text-align: center;
+}
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+body {
+    margin: 0;
 }
 
 h1 {
@@ -30,8 +44,16 @@ img {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 1.5rem;
+    margin: 0 auto; 
+    width: min(95%, 75rem); 
 }
-.container > * {
+.container_lg {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+    margin: 0 auto; 
+}
+.container > *, .container_lg > *{
     grid-column: span 12;
 }
 
@@ -42,14 +64,32 @@ img {
 @media screen and (min-width: 48rem) {
     
 
+    .col-span-2 {
+        grid-column: span 2;
+    }
+    .col-span-3 {
+        grid-column: span 3;
+    }
     .col-span-4 {
         grid-column: span 4;
+    }
+    .col-span-5 {
+        grid-column: span 5;
     }
     .col-span-6 {
         grid-column: span 6;
     }
+    .col-span-7 {
+        grid-column: span 7;
+    }
     .col-span-8 {
         grid-column: span 8;
+    }
+    .col-span-9 {
+        grid-column: span 9;
+    }
+    .col-span-10 {
+        grid-column: span 10;
     }
     
 
