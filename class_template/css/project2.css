@@ -1,9 +1,3 @@
-:root { 
-    --seconday_color: #007CBC;
-    --highlight_color: #F5BA36;
-    --neutral_grey: #747e83;
-    --neutral_light: #fff;
-}
 
 .center {
     text-align: center;
@@ -27,7 +21,7 @@ img {
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 1.5rem;
+   
     width: min(95%, 75rem);
     padding-bottom: 0; 
     margin: 0 auto; 
@@ -35,7 +29,7 @@ img {
 .container_lg {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 1.5rem;
+   
     margin: 0 auto; 
 
 }
@@ -199,8 +193,8 @@ img {
   }
 
   .logo {
-    width: 10%;
-    align-content: center;
+    width: 15%;
+    padding-right: 200px;
   }
   
  /*nav icons */ 
@@ -259,16 +253,16 @@ img {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    display:block;
+
   }
   
   /* header */
 
   li {
-    float: left;
+    float: right;
   }
   
   li a {
@@ -288,6 +282,8 @@ ul {
     background-color: #f3f3f3;
   }
 
+  /* image sizing */
+
   .img2 {
     max-width: 18%; 
   }
@@ -296,12 +292,32 @@ ul {
     max-width: 8%; 
   }
 
+.img4 {
+    max-width: 60%;
+}
 
+/* vertical navagation for leggings page */
 
-
-
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
   
-
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
 
 
 
