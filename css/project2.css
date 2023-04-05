@@ -112,8 +112,9 @@ img {
     margin-bottom: 10px;
     justify-content:center;
     margin-left: 148px;
-   
   }
+
+
 
   .button-white {
     background-color: #6C6CAD;; 
@@ -265,7 +266,7 @@ ul {
     float: right;
   }
   
-  li a {
+  li a:link, li a:visited {
     display: block;
     color: #666;
     text-align: center;
@@ -273,31 +274,12 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  li a:hover {
     background-color: #ddd;
   }
   
-  li a.active {
-    color: white;
-    background-color: #f3f3f3;
-  }
 
-   a. :visited {
-    background-color: #BAD249; 
-    border: none;
-    color: white;
-    padding: 4px 60px;
-    text-align: center;
-    text-decoration: none;
-    display:  block;
-    font-size: 16px;
-    border-radius: 32px;
-    width: 250px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content:center;
-    margin-left: 148px;
-  }
+  
   /* image sizing */
 
   .img2 {
@@ -324,16 +306,29 @@ ul {
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
+    padding-top: 30px; 
   }
   
   .vertical-menu a:hover {
     background-color: #ccc; /* Dark grey background on mouse-over */
   }
+/* plus icon */ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.vertical-menu2 a {
   
-  .vertical-menu a.active {
-    background-color: #04AA6D; /* Add a green color to the "active/current" link */
-    color: white;
-  }
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
 
 
 
