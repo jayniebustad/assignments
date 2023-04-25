@@ -36,8 +36,13 @@ h3 {
 p {
     color: var(--neutral_grey);
 }
-img {
+ .work img {
     max-width: 100%; /* This makes all your images responsive */
+}
+
+
+.white_text {
+    color: #fff;
 }
 
 .container {
